@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_08_phonebook=self.webpackChunkgoit_react_hw_08_phonebook||[]).push([[223],{9973:function(e,n,o){o.r(n),o.d(n,{default:function(){return c}});var t="HomePage_titlePart__Nqe-F",r=o(184);function c(){return(0,r.jsx)(r.Fragment,{children:(0,r.jsxs)("h1",{children:["Welcome to ",(0,r.jsx)("span",{className:t,children:"Phonebook"})," "]})})}}}]);
+//# sourceMappingURL=home-page.7f25752f.chunk.js.map
