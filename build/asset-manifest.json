@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce6216c7.css",
-    "main.js": "/static/js/main.6efa3cbf.js",
-    "phonebook-page.css": "/static/css/phonebook-page.241cbfad.chunk.css",
-    "phonebook-page.js": "/static/js/phonebook-page.7de26da5.chunk.js",
-    "home-page.css": "/static/css/home-page.32531e4f.chunk.css",
+    "main.css": "/static/css/main.023768b5.css",
+    "main.js": "/static/js/main.8d5491b6.js",
+    "phonebook-page.css": "/static/css/phonebook-page.f9378aca.chunk.css",
+    "phonebook-page.js": "/static/js/phonebook-page.0aa5169d.chunk.js",
+    "home-page.css": "/static/css/home-page.a745aeb1.chunk.css",
     "home-page.js": "/static/js/home-page.7f25752f.chunk.js",
-    "sign-in-page.css": "/static/css/sign-in-page.7a4a89a6.chunk.css",
+    "sign-in-page.css": "/static/css/sign-in-page.7656a661.chunk.css",
     "sign-in-page.js": "/static/js/sign-in-page.e58cf79c.chunk.js",
-    "sign-up-page.css": "/static/css/sign-up-page.aa2d576e.chunk.css",
+    "sign-up-page.css": "/static/css/sign-up-page.3592ace5.chunk.css",
     "sign-up-page.js": "/static/js/sign-up-page.9c6748b0.chunk.js",
     "static/js/238.46827b17.chunk.js": "/static/js/238.46827b17.chunk.js",
     "static/media/fon.jpg": "/static/media/fon.9b20a88c23eff333e57b.jpg",
     "index.html": "/index.html",
-    "main.ce6216c7.css.map": "/static/css/main.ce6216c7.css.map",
-    "main.6efa3cbf.js.map": "/static/js/main.6efa3cbf.js.map",
-    "phonebook-page.241cbfad.chunk.css.map": "/static/css/phonebook-page.241cbfad.chunk.css.map",
-    "phonebook-page.7de26da5.chunk.js.map": "/static/js/phonebook-page.7de26da5.chunk.js.map",
-    "home-page.32531e4f.chunk.css.map": "/static/css/home-page.32531e4f.chunk.css.map",
+    "main.023768b5.css.map": "/static/css/main.023768b5.css.map",
+    "main.8d5491b6.js.map": "/static/js/main.8d5491b6.js.map",
+    "phonebook-page.f9378aca.chunk.css.map": "/static/css/phonebook-page.f9378aca.chunk.css.map",
+    "phonebook-page.0aa5169d.chunk.js.map": "/static/js/phonebook-page.0aa5169d.chunk.js.map",
+    "home-page.a745aeb1.chunk.css.map": "/static/css/home-page.a745aeb1.chunk.css.map",
     "home-page.7f25752f.chunk.js.map": "/static/js/home-page.7f25752f.chunk.js.map",
-    "sign-in-page.7a4a89a6.chunk.css.map": "/static/css/sign-in-page.7a4a89a6.chunk.css.map",
+    "sign-in-page.7656a661.chunk.css.map": "/static/css/sign-in-page.7656a661.chunk.css.map",
     "sign-in-page.e58cf79c.chunk.js.map": "/static/js/sign-in-page.e58cf79c.chunk.js.map",
-    "sign-up-page.aa2d576e.chunk.css.map": "/static/css/sign-up-page.aa2d576e.chunk.css.map",
+    "sign-up-page.3592ace5.chunk.css.map": "/static/css/sign-up-page.3592ace5.chunk.css.map",
     "sign-up-page.9c6748b0.chunk.js.map": "/static/js/sign-up-page.9c6748b0.chunk.js.map",
     "238.46827b17.chunk.js.map": "/static/js/238.46827b17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce6216c7.css",
-    "static/js/main.6efa3cbf.js"
+    "static/css/main.023768b5.css",
+    "static/js/main.8d5491b6.js"
   ]
 }
