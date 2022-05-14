@@ -41,6 +41,7 @@ const App = () => {
               <Route path="/phonebook" element={<PhonebookPage />} />;
               <Route path="/signIn" element={<SignInPage />} />;
               <Route path="/signUp" element={<SignUpPage />} />;
+              <Route path="*" element={<HomePage />} />
             </Routes>
           </Suspense>
         </main>
