@@ -47,7 +47,7 @@ const App = () => {
                 getIsLoggedIn ? (
                   <Navigate to={'/'} restricted />
                 ) : (
-                  <Navigate to={'/contacts'} restricted />
+                  <Navigate to={'/phonebook'} restricted />
                 )
               }
             />
