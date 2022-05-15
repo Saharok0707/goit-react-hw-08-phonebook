@@ -1,9 +1,9 @@
 import s from './App.module.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-
+import { getIsLoggedIn } from 'redux/auth/auth-selectors';
 import { Suspense, useEffect, lazy } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes,Navigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { refreshCurrentUser } from './redux/auth/auth-operations';
 import { getIsLoading } from './redux/auth/auth-selectors';
@@ -35,13 +35,22 @@ const App = () => {
       <div className={s.wrapper}>
         <Header className={s.header} />
         <main className={(s.main, s.phonebookSection)}>
-          <Suspense fallback={<h1>Loading...</h1>}>
+           <Suspense fallback={<h1>Loading...</h1>}>
             <Routes>
               <Route path="/" element={<HomePage />} />;
               <Route path="/phonebook" element={<PhonebookPage />} />;
               <Route path="/signIn" element={<SignInPage />} />;
               <Route path="/signUp" element={<SignUpPage />} />;
-              <Route path="*" element={<HomePage />} />
+              <Route
+              path="*"
+              element={
+                getIsLoggedIn ? (
+                  <Navigate to={'/'} restricted />
+                ) : (
+                  <Navigate to={'/contacts'} restricted />
+                )
+              }
+            />
             </Routes>
           </Suspense>
         </main>
